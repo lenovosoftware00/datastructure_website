@@ -17,6 +17,40 @@ Welcome to my project website. This portfolio showcases my latest work, ongoing 
 
 ---
 
+
+# ⭐ Latest Project
+
+<div style="display:flex;gap:25px;align-items:center;border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
+
+<img src="images_001.jpg" width="360">
+
+<div>
+
+##Project Name <br>
+
+Write a short description of your latest project here.<br>
+
+##Technologies <br>
+Python • SQL • Power BI • Excel<br>
+
+##Repository <br>
+</div>
+
+<a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
+  <button style="background:#2563EB;color:white;border:none;padding:12px 24px;border-radius:8px;font-size:16px;font-weight:bold;cursor:pointer;">
+    🔗Project Link
+  </button>
+</a>
+
+
+</div>
+
+</div>
+
+
+
+---
+
 # ⭐ Latest Project
 
 | | |
