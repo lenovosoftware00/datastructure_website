@@ -36,6 +36,8 @@ Write a short description of your latest project here.<br>
 Python • SQL • Power BI • Excel<br>
 
 ### Repository<br>
+</div>
+
 <a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
   <button style="background:#2563EB;color:white;border:none;padding:12px 24px;border-radius:8px;font-size:16px;font-weight:bold;cursor:pointer;">
     🔗Project Link
@@ -66,6 +68,8 @@ Describe your current project.<br>
 🟡 In Progress<br>
 
 ### Repository<br>
+</div>
+
 <a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
   <button style="background:#2563EB;color:white;border:none;padding:12px 24px;border-radius:8px;font-size:16px;font-weight:bold;cursor:pointer;">
     🔗Project Link
