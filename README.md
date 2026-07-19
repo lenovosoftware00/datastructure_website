@@ -1,228 +1,177 @@
-<div align="center">
 
 # 🚀 Project Portfolio
 
-<p>
-Welcome to my project website. This portfolio showcases my latest work,
-ongoing developments, and completed projects.
-</p>
+Welcome to my project website. This portfolio showcases my latest work, ongoing developments, and completed projects.
+
+---
+
+# 📌 About This Site
+
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
+
+| Information | Details |
+|-------------|---------|
+| **Purpose** | Showcase software, data analytics, and visualization projects. |
+| **Includes** | Python • SQL • Power BI • Excel • Documentation |
+| **Updated** | Regularly with new projects and improvements |
+| **Repository** | GitHub Pages Portfolio |
 
 </div>
 
 ---
 
-<table width="100%">
-<tr>
-<td>
+# ⭐ Latest Project
 
-## 📌 About This Site
+<div style="display:flex;gap:25px;align-items:center;border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-<table>
-<tr><th>📝 Information</th><th>📊 Details</th></tr>
+<img src="images_001.jpg" width="360">
 
-<tr>
-<td><b>Purpose</b></td>
-<td>Showcase software, data analytics, and visualization projects.</td>
-</tr>
+<div>
 
-<tr>
-<td><b>Includes</b></td>
-<td>Python • SQL • Power BI • Excel • Documentation</td>
-</tr>
+## Project Name
 
-<tr>
-<td><b>Updated</b></td>
-<td>Regularly with new projects and improvements.</td>
-</tr>
+Write a short description of your latest project here.
 
-<tr>
-<td><b>Repository</b></td>
-<td>GitHub Pages Portfolio</td>
-</tr>
+### Technologies
+Python • SQL • Power BI • Excel
 
-</table>
+### Repository
 
-</td>
-</tr>
-</table>
+🔗 https://github.com/lenovosoftware00/datastructure_website
+
+</div>
+
+</div>
 
 ---
 
-## ⭐ Latest Project
+# 🚧 Current Project
 
-<table>
-<tr>
+<div style="display:flex;gap:25px;align-items:center;border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-<td width="38%" align="center">
+<img src="images_002.jpg" width="360">
 
-<img src="images_001.jpg" width="320">
+<div>
 
-</td>
-
-<td width="62%">
-
-### Project Name
-
-Write a short description of your latest project.
-
-**Technology**
-
-`Python` • `SQL` • `Power BI` • `Excel`
-
-🔗 **Project Link**
-
-https://github.com/lenovosoftware00/datastructure_website
-
-</td>
-
-</tr>
-</table>
-
----
-
-## 🚧 Current Project
-
-<table>
-<tr>
-
-<td width="38%" align="center">
-
-<img src="images_002.jpg" width="320">
-
-</td>
-
-<td width="62%">
-
-### Project Name
+## Project Name
 
 Describe your current project.
 
 **Status**
 
-🟡 **In Progress**
+🟡 In Progress
 
-🔗 **Repository**
+### Repository
 
-https://github.com/lenovosoftware00/datastructure_website
+🔗 https://github.com/lenovosoftware00/datastructure_website
 
-</td>
+</div>
 
-</tr>
-</table>
+</div>
 
 ---
 
-## 📁 Fifth Project
+# 📁 Fifth Project
 
-<table>
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-<tr>
-<td>
+## Project Name
 
-### Project Name
-
-Add your fifth project description here.
+Add the description of your fifth project here.
 
 **Technology**
 
-`Python` • `Excel` • `SQL`
+Python • SQL • Excel
 
-🔗 Repository
+🔗 https://github.com/YOUR_USERNAME/FIFTH_PROJECT
 
-https://github.com/YOUR_USERNAME/FIFTH_PROJECT
-
-</td>
-</tr>
-
-</table>
+</div>
 
 ---
 
-## 📁 Fourth Project
+# 📁 Fourth Project
 
-<table>
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-<tr>
-<td>
+## Project Name
 
-### Project Name
-
-Add your fourth project description here.
+Add the description of your fourth project here.
 
 **Technology**
 
-`SQL` • `Power BI`
+SQL • Power BI
 
-🔗 Repository
+🔗 https://github.com/YOUR_USERNAME/FOURTH_PROJECT
 
-https://github.com/YOUR_USERNAME/FOURTH_PROJECT
-
-</td>
-</tr>
-
-</table>
+</div>
 
 ---
 
-## 📁 Third Project
+# 📁 Third Project
 
-<table>
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-<tr>
-<td>
+## Project Name
 
-### Project Name
-
-Add your third project description here.
+Add the description of your third project here.
 
 **Technology**
 
-`Python` • `Pandas` • `Matplotlib`
+Python • Pandas • Matplotlib
 
-🔗 Repository
+🔗 https://github.com/YOUR_USERNAME/THIRD_PROJECT
 
-https://github.com/YOUR_USERNAME/THIRD_PROJECT
-
-</td>
-</tr>
-
-</table>
+</div>
 
 ---
 
-## 📈 Portfolio Statistics
+# 📈 Portfolio Statistics
+
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
 | Category | Count |
-|:---------|------:|
+|----------|------:|
 | Completed Projects | **05** |
 | Ongoing Projects | **01** |
 | Programming Languages | **05+** |
 | Tools & Technologies | **10+** |
 
+</div>
+
 ---
 
-## 🛠 Technologies
+# 🛠 Technologies
+
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
 | Programming | Database | Visualization | Version Control |
-|:-----------|:---------|:--------------|:----------------|
+|------------|----------|---------------|----------------|
 | Python | MySQL | Power BI | Git |
 | SQL | PostgreSQL | Excel | GitHub |
 
+</div>
+
 ---
 
-## 📬 Contact
+# 📬 Contact
+
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
 | Platform | Link |
-|:---------|:-----|
+|----------|------|
 | GitHub | https://github.com/YOUR_USERNAME |
 | Portfolio | https://YOUR_USERNAME.github.io |
 | LinkedIn | https://linkedin.com/in/YOUR_USERNAME |
 | Email | your_email@example.com |
 
+</div>
+
 ---
 
 <div align="center">
 
-### ⭐ Thank you for visiting my portfolio.
+## ⭐ Thank You for Visiting
+
+Feel free to explore my projects and connect with me.
 
 </div>
