@@ -37,7 +37,11 @@ Python • SQL • Power BI • Excel
 
 ### Repository
 
-<br> https://github.com/lenovosoftware00/datastructure_website
+<a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
+  <button style="background:#2563EB;color:white;border:none;padding:12px 24px;border-radius:8px;font-size:16px;font-weight:bold;cursor:pointer;">
+    🔗 View Project
+  </button>
+</a>
 
 </div>
 
@@ -63,7 +67,11 @@ Describe your current project.
 
 ### Repository
 
-<br> https://github.com/lenovosoftware00/datastructure_website
+<a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
+  <button style="background:#2563EB;color:white;border:none;padding:12px 24px;border-radius:8px;font-size:16px;font-weight:bold;cursor:pointer;">
+    🔗 View Project
+  </button>
+</a>
 
 </div>
 
