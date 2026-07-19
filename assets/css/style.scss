@@ -1,0 +1,84 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ==============================
+   Deep Navy Blue Theme
+   ============================== */
+
+/* Page Background */
+body {
+    background-color: #10233F !important;
+    color: #F5F7FA !important;
+}
+
+/* Main Content */
+.main-content,
+.page-content,
+.wrapper,
+.container,
+section {
+    background-color: #10233F !important;
+    color: #F5F7FA !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF !important;
+}
+
+/* Paragraphs */
+p,
+li,
+span,
+td,
+th,
+label,
+small {
+    color: #E8EDF3 !important;
+}
+
+/* Links */
+a {
+    color: #6CB6FF !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A5D8FF !important;
+}
+
+/* Code Blocks */
+pre,
+code {
+    background: #182C4A !important;
+    color: #F8F8F2 !important;
+    border-radius: 8px;
+}
+
+/* Tables */
+table {
+    color: #F5F7FA;
+}
+
+th {
+    background: #1A3558;
+}
+
+td,
+th {
+    border-color: #35557A;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #4ADE80;
+    color: #DCE6F2;
+    background: rgba(255,255,255,0.04);
+}
+
+/* Horizontal Line */
+hr {
+    border-color: #2C4C72;
+}
