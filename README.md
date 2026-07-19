@@ -1,84 +1,55 @@
-# 🚀 Project Portfolio
+# 🚀 Software & Data Analytics Portfolio
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:14px;padding:24px;">
-
-# 📌 About This Website
-
-This website contains my software development and data analytics projects.
-
-### Highlights
-
-- 📊 Data Analytics
-- 💻 Python Applications
-- 🗄 SQL Projects
-- 📈 Power BI Dashboards
-- 📄 Technical Documentation
-- 🚀 Ongoing Developments
-
-</div>
+| 📌 About | 📈 Statistics |
+|-----------|--------------|
+| Software Development | 06 Projects |
+| Data Analytics | 05 Languages |
+| Power BI Dashboards | 10+ Tools |
+| Documentation | Regular Updates |
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:14px;padding:24px;">
+# ⭐ Featured Project
 
-# ⭐ Latest Project
-
-<img src="images/project1.jpg" width="100%">
-
-## Project Title
-
-Brief description of the project.
-
-### Technologies
-
-Python • SQL • Power BI • Excel
-
-### Repository
-
-🔗 https://github.com/USERNAME/PROJECT
-
-</div>
+| Image | Details |
+|:------:|---------|
+| <img src="images/project1.jpg" width="350"> | ## Project Name<br><br>Description of the project.<br><br>Python • SQL • Excel • Power BI<br><br>🔗 Repository |
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:14px;padding:24px;">
+# 🚧 Currently Working On
 
-# 🚧 Current Development
-
-<img src="images/project2.jpg" width="100%">
-
-## Project Name
-
-Project currently under development.
-
-🟡 Status: In Progress
-
-</div>
+| Image | Details |
+|:------:|---------|
+| <img src="images/project2.jpg" width="350"> | ## Project Name<br><br>Status: 🟡 In Progress |
 
 ---
 
-# 📂 Previous Projects
+# 📁 Completed Projects
 
-| Project | Description |
-|---------|-------------|
-| Fourth Project | Description |
-| Fifth Project | Description |
-| Sixth Project | Description |
-
----
-
-# 📊 Portfolio Stats
-
-| Projects | Languages | Tools |
-|---------:|----------:|------:|
-| 06 | 05+ | 10+ |
+| Project | Technology | Status |
+|---------|------------|--------|
+| Project One | Python | ✅ |
+| Project Two | SQL | ✅ |
+| Project Three | Power BI | ✅ |
+| Project Four | Excel | ✅ |
 
 ---
 
-<div align="center">
+# 🛠 Tech Stack
 
-⭐ Thank you for visiting!
+Python • SQL • MySQL • PostgreSQL • Excel • Power BI • Git • GitHub
 
-</div>
+---
+
+# 📬 Contact
+
+GitHub
+
+LinkedIn
+
+Portfolio
+
+Email
