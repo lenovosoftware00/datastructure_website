@@ -1,55 +1,109 @@
-# 🚀 Software & Data Analytics Portfolio
+# 🚀 Project Portfolio
 
 ---
 
-| 📌 About | 📈 Statistics |
-|-----------|--------------|
-| Software Development | 06 Projects |
-| Data Analytics | 05 Languages |
-| Power BI Dashboards | 10+ Tools |
-| Documentation | Regular Updates |
+<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+
+## 📌 About
+
+Welcome to my software development portfolio.
+
+This repository contains
+
+- 💻 Python Projects
+- 📊 Data Analytics
+- 📈 Power BI
+- 🗄 SQL
+- 📄 Documentation
+
+</div>
 
 ---
 
-# ⭐ Featured Project
+<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
 
-| Image | Details |
-|:------:|---------|
-| <img src="images/project1.jpg" width="350"> | ## Project Name<br><br>Description of the project.<br><br>Python • SQL • Excel • Power BI<br><br>🔗 Repository |
+## ⭐ Featured Project
 
----
+| | |
+|:---:|:---|
+| <img src="images/project1.jpg" width="320"> | ### Project Name<br><br>Professional description of the project.<br><br>**Technology**<br>Python • SQL • Power BI<br><br>🔗 Repository |
 
-# 🚧 Currently Working On
-
-| Image | Details |
-|:------:|---------|
-| <img src="images/project2.jpg" width="350"> | ## Project Name<br><br>Status: 🟡 In Progress |
+</div>
 
 ---
 
-# 📁 Completed Projects
+<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
 
-| Project | Technology | Status |
-|---------|------------|--------|
-| Project One | Python | ✅ |
-| Project Two | SQL | ✅ |
-| Project Three | Power BI | ✅ |
-| Project Four | Excel | ✅ |
+## 🚧 Current Project
 
----
+| | |
+|:---:|:---|
+| <img src="images/project2.jpg" width="320"> | ### Project Name<br><br>Current development progress.<br><br>🟡 In Progress |
 
-# 🛠 Tech Stack
-
-Python • SQL • MySQL • PostgreSQL • Excel • Power BI • Git • GitHub
+</div>
 
 ---
 
-# 📬 Contact
+<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+
+## 📁 Other Projects
+
+### Fifth Project
+
+Project description...
+
+---
+
+### Fourth Project
+
+Project description...
+
+---
+
+### Third Project
+
+Project description...
+
+</div>
+
+---
+
+<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+
+## 📊 Statistics
+
+Completed Projects : **06**
+
+Current Projects : **01**
+
+Languages : **05+**
+
+Tools : **10+**
+
+</div>
+
+---
+
+<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+
+## 📬 Contact
 
 GitHub
 
-LinkedIn
-
 Portfolio
 
+LinkedIn
+
 Email
+
+</div>
+
+---
+
+<div align="center">
+
+# ⭐ Thanks for Visiting
+
+Made with ❤️ using GitHub Pages
+
+</div>
