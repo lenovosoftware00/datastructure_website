@@ -19,7 +19,7 @@ Welcome to my project website. This portfolio showcases my latest work, ongoing 
 
 | | |
 |:---:|:---|
-| <img src="images_001.jpg" width="350"> | **Project Name**<br><br>Write a short description of your latest project here. Explain its purpose, features, and outcome.<br><br>**Technology**<br>Python • SQL • Power BI • Excel<br><br>🔗 **Project Link**<br>https://github.com/YOUR_USERNAME/LATEST_PROJECT |
+| <img src="images_001.jpg" width="350"> | **Project Name**<br><br>Write a short description of your latest project here. Explain its purpose, features, and outcome.<br><br>**Technology**<br>Python • SQL • Power BI • Excel<br><br>🔗 **Project Link**<br>  https://github.com/lenovosoftware00/datastructure_website/blob/main/README.md |
 
 ---
 
@@ -27,7 +27,7 @@ Welcome to my project website. This portfolio showcases my latest work, ongoing 
 
 | | |
 |:---:|:---|
-| <img src="images_002.jpg" width="350"> | **Project Name**<br><br>Describe your current project. Mention objectives, expected features, and current development status.<br><br>**Status**<br>🟡 In Progress<br><br>🔗 **Repository**<br>https://github.com/YOUR_USERNAME/CURRENT_PROJECT |
+| <img src="images_002.jpg" width="350"> | **Project Name**<br><br>Describe your current project. Mention objectives, expected features, and current development status.<br><br>**Status**<br>🟡 In Progress<br><br>🔗 **Repository**<br>https://github.com/lenovosoftware00/datastructure_website/blob/main/README.md |
 
 ---
 
