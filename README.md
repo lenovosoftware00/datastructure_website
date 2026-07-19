@@ -41,7 +41,7 @@ Python • SQL • Power BI • Excel<br>
 </div>
 
 <a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
-  <button style="background:#24292F;color:white;border:1px solid #57606A;padding:10px 22px;border-radius:6px;font-size:15px;font-weight:bold;">
+  <button style="background:#2563EB;color:white;border:none;padding:12px 30px;border-radius:50px;font-size:16px;font-weight:bold;">
     🔗Project Link
   </button>
 </a>
@@ -74,7 +74,7 @@ Describe your current project.<br>
 </div>
 
 <a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
-  <button style="background:#24292F;color:white;border:1px solid #57606A;padding:10px 22px;border-radius:6px;font-size:15px;font-weight:bold;">
+  <button style="background:#2563EB;color:white;border:none;padding:12px 30px;border-radius:50px;font-size:16px;font-weight:bold;">
     🔗Project Link
   </button>
 </a>
