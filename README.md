@@ -1,100 +1,168 @@
+
 # 🚀 Project Portfolio
 
+Welcome to my project website. This portfolio showcases my latest work, ongoing developments, and completed projects.
+
 ---
 
-<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+# 📌 About This Site
 
-## 📌 About
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-Welcome to my software development portfolio.
-
-This repository contains
-
-- 💻 Python Projects
-- 📊 Data Analytics
-- 📈 Power BI
-- 🗄 SQL
-- 📄 Documentation
+| Information | Details |
+|-------------|---------|
+| **Purpose** | Showcase software, data analytics, and visualization projects. |
+| **Includes** | Python • SQL • Power BI • Excel • Documentation |
+| **Updated** | Regularly with new projects and improvements |
+| **Repository** | GitHub Pages Portfolio |
 
 </div>
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+# ⭐ Latest Project
 
-## ⭐ Featured Project
+<div style="display:flex;gap:25px;align-items:center;border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-| | |
-|:---:|:---|
-| <img src="images_001.jpg" width="320"> | ### Project Name<br><br>Professional description of the project.<br><br>**Technology**<br>Python • SQL • Power BI<br><br>🔗 Repository |
+<img src="images_001.jpg" width="360">
+
+<div>
+
+## Project Name
+
+Write a short description of your latest project here.
+
+### Technologies
+Python • SQL • Power BI • Excel
+
+### Repository
+
+🔗 https://github.com/lenovosoftware00/datastructure_website
+
+</div>
 
 </div>
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+# 🚧 Current Project
 
-## 🚧 Current Project
+<div style="display:flex;gap:25px;align-items:center;border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-| | |
-|:---:|:---|
-| <img src="images_002.jpg" width="320"> | ### Project Name<br><br>Current development progress.<br><br>🟡 In Progress |
+<img src="images_002.jpg" width="360">
+
+<div>
+
+## Project Name
+
+Describe your current project.
+
+**Status**
+
+🟡 In Progress
+
+### Repository
+
+🔗 https://github.com/lenovosoftware00/datastructure_website
+
+</div>
 
 </div>
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+# 📁 Fifth Project
 
-## 📁 Other Projects
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-### Fifth Project
+## Project Name
 
-Project description...
+Add the description of your fifth project here.
 
----
+**Technology**
 
-### Fourth Project
+Python • SQL • Excel
 
-Project description...
-
----
-
-### Third Project
-
-Project description...
+🔗 https://github.com/YOUR_USERNAME/FIFTH_PROJECT
 
 </div>
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+# 📁 Fourth Project
 
-## 📊 Statistics
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-Completed Projects : **06**
+## Project Name
 
-Current Projects : **01**
+Add the description of your fourth project here.
 
-Languages : **05+**
+**Technology**
 
-Tools : **10+**
+SQL • Power BI
+
+🔗 https://github.com/YOUR_USERNAME/FOURTH_PROJECT
 
 </div>
 
 ---
 
-<div style="border:2px solid #35557A;border-radius:15px;padding:22px;">
+# 📁 Third Project
 
-## 📬 Contact
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
 
-GitHub
+## Project Name
 
-Portfolio
+Add the description of your third project here.
 
-LinkedIn
+**Technology**
 
-Email
+Python • Pandas • Matplotlib
+
+🔗 https://github.com/YOUR_USERNAME/THIRD_PROJECT
+
+</div>
+
+---
+
+# 📈 Portfolio Statistics
+
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
+
+| Category | Count |
+|----------|------:|
+| Completed Projects | **05** |
+| Ongoing Projects | **01** |
+| Programming Languages | **05+** |
+| Tools & Technologies | **10+** |
+
+</div>
+
+---
+
+# 🛠 Technologies
+
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
+
+| Programming | Database | Visualization | Version Control |
+|------------|----------|---------------|----------------|
+| Python | MySQL | Power BI | Git |
+| SQL | PostgreSQL | Excel | GitHub |
+
+</div>
+
+---
+
+# 📬 Contact
+
+<div style="border:2px solid #35557A;border-radius:12px;padding:20px;background:#182C4A;">
+
+| Platform | Link |
+|----------|------|
+| GitHub | https://github.com/YOUR_USERNAME |
+| Portfolio | https://YOUR_USERNAME.github.io |
+| LinkedIn | https://linkedin.com/in/YOUR_USERNAME |
+| Email | your_email@example.com |
 
 </div>
 
@@ -102,8 +170,8 @@ Email
 
 <div align="center">
 
-# ⭐ Thanks for Visiting
+## ⭐ Thank You for Visiting
 
-Made with ❤️ using GitHub Pages
+Feel free to explore my projects and connect with me.
 
 </div>
