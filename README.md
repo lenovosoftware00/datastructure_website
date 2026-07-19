@@ -37,7 +37,7 @@ Python • SQL • Power BI • Excel
 
 ### Repository
 
-🔗 https://github.com/lenovosoftware00/datastructure_website
+<br> https://github.com/lenovosoftware00/datastructure_website
 
 </div>
 
@@ -63,7 +63,7 @@ Describe your current project.
 
 ### Repository
 
-🔗 https://github.com/lenovosoftware00/datastructure_website
+<br> https://github.com/lenovosoftware00/datastructure_website
 
 </div>
 
