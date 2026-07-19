@@ -38,7 +38,6 @@ Python • SQL • Power BI • Excel<br>
 
 <h3>🔗 Repository (Click the button for More Detail's)👉🏻  </h3> <br>
 
-</div>
 
 [![🔗Project Link](https://img.shields.io/badge/🔗%20View%20Project-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lenovosoftware00/datastructure_website)
 
