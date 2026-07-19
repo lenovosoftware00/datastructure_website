@@ -36,7 +36,7 @@ Write a short description of your latest project here.<br>
 Python • SQL • Power BI • Excel<br>
 
 
-<h3>🔗 Repository </h3> <br>
+<h3>🔗 Repository </h3> 
 
 (Click the button for More Detail's)👉🏻  <br>
 
@@ -70,7 +70,7 @@ Describe your current project.<br>
 🟡 In Progress <br>
 
 
-<h3>🔗 Repository </h3> <br>
+<h3>🔗 Repository </h3> 
   
 (Click the button for More Detail's)👉🏻  <br>
 
