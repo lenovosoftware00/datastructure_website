@@ -26,7 +26,7 @@ This repository contains
 
 | | |
 |:---:|:---|
-| <img src="images/project1.jpg" width="320"> | ### Project Name<br><br>Professional description of the project.<br><br>**Technology**<br>Python • SQL • Power BI<br><br>🔗 Repository |
+| <img src="images_001.jpg" width="320"> | ### Project Name<br><br>Professional description of the project.<br><br>**Technology**<br>Python • SQL • Power BI<br><br>🔗 Repository |
 
 </div>
 
@@ -38,7 +38,7 @@ This repository contains
 
 | | |
 |:---:|:---|
-| <img src="images/project2.jpg" width="320"> | ### Project Name<br><br>Current development progress.<br><br>🟡 In Progress |
+| <img src="images_002.jpg" width="320"> | ### Project Name<br><br>Current development progress.<br><br>🟡 In Progress |
 
 </div>
 
