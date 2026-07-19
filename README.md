@@ -40,21 +40,7 @@ Python • SQL • Power BI • Excel<br>
 
 </div>
 
-<a href="https://github.com/lenovosoftware00/datastructure_website"
-   style="
-      display:inline-block;
-      background:#24292F;
-      color:white;
-      padding:11px 26px;
-      border-radius:8px;
-      border:1px solid #57606A;
-      text-decoration:none;
-      font-size:15px;
-      font-weight:600;
-   ">
-   <img src="https://img.icons8.com/ios-glyphs/18/ffffff/github.png" width="16" style="vertical-align:middle;">
-   Project Link
-</a>
+[![🔗Project Link](https://img.shields.io/badge/🚀%20View%20Project-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lenovosoftware00/datastructure_website)
 
 </div>
 
