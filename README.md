@@ -28,14 +28,14 @@ Welcome to my project website. This portfolio showcases my latest work, ongoing 
 
 <div>
 
-## Project Name<br>
+## Project Name <br>
 
 Write a short description of your latest project here.<br>
 
-### Technologies<br>
+### Technologies <br>
 Python • SQL • Power BI • Excel<br>
 
-### Repository<br>
+### Repository <br>
 </div>
 
 <a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
@@ -59,15 +59,15 @@ Python • SQL • Power BI • Excel<br>
 
 <div>
 
-## Project Name<br>
+## Project Name <br>
 
 Describe your current project.<br>
 
-**Status**<br>
+**Status** <br>
 
-🟡 In Progress<br>
+🟡 In Progress <br>
 
-### Repository<br>
+### Repository <br>
 </div>
 
 <a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
