@@ -36,13 +36,15 @@ Write a short description of your latest project here.<br>
 Python • SQL • Power BI • Excel<br>
 
 
-<h3>🔗 Repository (Click the button for More Detail's)👉🏻  </h3> <br>
+<h3>🔗 Repository </h3> <br>
+
+(Click the button for More Detail's)👉🏻  <br>
 
 </div>
 
-<a href="https://github.com/lenovosoftware00/datastructure_website" target="_blank">
-  <button style="background:#182C4A;color:#F5F7FA;border:2px solid #35557A;padding:12px 24px;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;">
-    🚀 Open Repository
+<a href=" https://github.com/lenovosoftware00/datastructure_website" target="_blank">
+  <button style="background:#2563EB;color:white;border:none;padding:12px 30px;border-radius:50px;font-size:16px;font-weight:bold;">
+    🔗Clicl Here
   </button>
 </a>
 
@@ -68,7 +70,9 @@ Describe your current project.<br>
 🟡 In Progress <br>
 
 
-<h3>🔗 Repository (Click the button for More Detail's)👉🏻  </h3> <br>
+<h3>🔗 Repository </h3> <br>
+  
+(Click the button for More Detail's)👉🏻  <br>
 
 </div>
 
