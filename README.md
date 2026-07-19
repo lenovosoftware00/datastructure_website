@@ -47,7 +47,6 @@ Python • SQL • Power BI • Excel<br>
 
 </div>
 
-</div>
 
 ---
 
@@ -79,7 +78,6 @@ Describe your current project.<br>
 
 </div>
 
-</div>
 
 ---
 
