@@ -1,248 +1,93 @@
+# 🚀 Project Portfolio
 
-# 🚀 My Project Portfolio
-
-Welcome to my GitHub Pages portfolio.
-
----
-
-<table width="100%">
-<tr>
-<td>
-
-## 📌 About This Site
+Welcome to my project website. This portfolio showcases my latest work, ongoing developments, and completed projects.
 
 ---
 
-<div style="border:2px solid #4CAF50;border-radius:10px;padding:18px;">
+# 📌 About This Site
 
-This portfolio contains my latest software development and data analytics projects.
-
-Here you can find:
-
-- 📊 Data Analytics Projects
-- 💻 Python Applications
-- 🗄 SQL Projects
-- 📈 Power BI Dashboards
-- 📄 Documentation
-- 🔄 Projects currently under development
-
-Every project contains:
-
-- Description
-- Features
-- Technologies Used
-- Source Code
-- Images
-- Documentation
-
-</div>
-
-</td>
-</tr>
-</table>
+| 📝 Information | 📊 Details |
+|:--------------|:-----------|
+| Purpose | Showcase software, data analytics, and visualization projects. |
+| Includes | Python, SQL, Power BI, Excel, Documentation |
+| Updated | Regularly with new projects and improvements |
+| Repository | GitHub Pages Portfolio |
 
 ---
 
 # ⭐ Latest Project
 
-<div style="border:2px solid #4CAF50;border-radius:10px;padding:20px;">
-
-## Project Name
-
-### Project Description
-
-Write a detailed description of your latest project here.
-
-Example:
-
-A complete Data Analytics dashboard developed using Python, SQL and Power BI for business reporting.
-
-### Technologies
-
-- Python
-- SQL
-- Power BI
-- Excel
-
-### Preview
-
-<p align="center">
-
-<img src="Images/latest-project.png" width="700">
-
-</p>
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Project-2563EB?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</p>
-
-</div>
+| | |
+|:---:|:---|
+| <img src="Images/latest_project.png" width="350"> | **Project Name**<br><br>Write a short description of your latest project here. Explain its purpose, features, and outcome.<br><br>**Technology**<br>Python • SQL • Power BI • Excel<br><br>🔗 **Project Link**<br>https://github.com/YOUR_USERNAME/LATEST_PROJECT |
 
 ---
 
-# 🚧 Current Project (In Progress)
+# 🚧 Current Project
 
-<div style="border:2px solid orange;border-radius:10px;padding:20px;">
-
-## Project Name
-
-### Description
-
-Describe your ongoing project.
-
-Mention:
-
-- Current objectives
-- Technologies
-- Expected completion
-- Upcoming features
-
-### Technologies
-
-- Python
-- SQL
-- Git
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Progress_Project-orange?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</p>
-
-</div>
+| | |
+|:---:|:---|
+| <img src="Images/current_project.png" width="350"> | **Project Name**<br><br>Describe your current project. Mention objectives, expected features, and current development status.<br><br>**Status**<br>🟡 In Progress<br><br>🔗 **Repository**<br>https://github.com/YOUR_USERNAME/CURRENT_PROJECT |
 
 ---
 
-# 📂 Fifth Project
+# 📁 Fifth Project
 
-<div style="border:2px solid #4CAF50;border-radius:10px;padding:20px;">
-
-## Project Name
-
-### Description
-
-Write the fifth project description here.
-
-### Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-### Technologies
-
-- Python
-- SQL
-- Excel
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Project-success?style=for-the-badge&logo=github">
-</a>
-
-</p>
-
-</div>
+| Description |
+|:------------|
+| **Project Name**<br><br>Add the description of your fifth project here.<br><br>**Technology:** Python, Excel, SQL<br><br>🔗 https://github.com/YOUR_USERNAME/FIFTH_PROJECT |
 
 ---
 
-# 📂 Fourth Project
+# 📁 Fourth Project
 
-<div style="border:2px solid #4CAF50;border-radius:10px;padding:20px;">
-
-## Project Name
-
-### Description
-
-Write the fourth project description here.
-
-### Features
-
-- Dashboard
-- Visualization
-- Data Cleaning
-
-### Technologies
-
-- Power BI
-- SQL
-- Excel
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Project-success?style=for-the-badge&logo=github">
-</a>
-
-</p>
-
-</div>
+| Description |
+|:------------|
+| **Project Name**<br><br>Add the description of your fourth project here.<br><br>**Technology:** SQL, Power BI<br><br>🔗 https://github.com/YOUR_USERNAME/FOURTH_PROJECT |
 
 ---
 
-# 📂 Third Project
+# 📁 Third Project
 
-<div style="border:2px solid #4CAF50;border-radius:10px;padding:20px;">
+| Description |
+|:------------|
+| **Project Name**<br><br>Add the description of your third project here.<br><br>**Technology:** Python, Pandas, Matplotlib<br><br>🔗 https://github.com/YOUR_USERNAME/THIRD_PROJECT |
 
-## Project Name
+---
 
-### Description
+# 📈 Portfolio Statistics
 
-Write the third project description here.
+| Category | Count |
+|:---------|------:|
+| Completed Projects | 05 |
+| Ongoing Projects | 01 |
+| Programming Languages | 05+ |
+| Tools & Technologies | 10+ |
 
-### Features
+---
 
-- Analysis
-- Reports
-- Charts
+# 🛠 Technologies
 
-### Technologies
-
-- Python
-- Pandas
-- Matplotlib
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Project-success?style=for-the-badge&logo=github">
-</a>
-
-</p>
-
-</div>
+| Programming | Database | Visualization | Version Control |
+|:-----------|:---------|:--------------|:----------------|
+| Python | MySQL | Power BI | Git |
+| SQL | PostgreSQL | Excel | GitHub |
 
 ---
 
 # 📬 Contact
 
-<div style="border:2px solid #4CAF50;border-radius:10px;padding:20px;">
-
-GitHub
-
-https://github.com/YOUR_USERNAME
-
-Portfolio
-
-https://YOUR_USERNAME.github.io/
-
-Email
-
-your_email@example.com
-
-</div>
+| Platform | Link |
+|:---------|:-----|
+| GitHub | https://github.com/YOUR_USERNAME |
+| Portfolio | https://YOUR_USERNAME.github.io |
+| LinkedIn | https://linkedin.com/in/YOUR_USERNAME |
+| Email | your_email@example.com |
 
 ---
 
 <p align="center">
 
-Made with ❤️ using GitHub Pages
+⭐ Thank you for visiting my portfolio.
 
 </p>
