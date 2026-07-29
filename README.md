@@ -1,3 +1,14 @@
+=====
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=60&section=footer&color=0:00F5A0,100:2563EB&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=60&section=header&color=0:00F5A0,100:2563EB&animation=fadeIn"/>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://user-images.githubusercontent.com/74038190/212750006-1d2a5e5b-3a2e-4b58-a1a5-7c1a07b5c0df.gif">
+</p>
+
 
 # 🚀 Project Portfolio
 
