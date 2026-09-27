@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 html {
@@ -14,8 +13,9 @@ html {
 }
 
 body {
-    background: #000;
-    color: #fff;
+    background: #000000;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
     overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@ img {
 .container {
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: auto;
     padding: 10px 6%;
 }
 
@@ -39,31 +39,42 @@ img {
 #header {
     width: 100%;
     min-height: 100vh;
-    background-image: url(images/background.jpg);
+
+    background-image: url("images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     position: relative;
 }
 
 
 /* =========================================================
-   NAVIGATION
+   NAVIGATION - DESKTOP
 ========================================================= */
 
 nav {
     width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+
     padding: 10px 0;
+}
+
+.logo-link {
+    display: block;
 }
 
 .logo {
     width: 140px;
     max-width: 100%;
+    display: block;
 }
+
+
+/* Desktop navigation */
 
 nav ul {
     display: flex;
@@ -72,17 +83,19 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
     margin: 10px 20px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+
     position: relative;
+
     transition: color 0.3s ease;
 }
 
@@ -90,14 +103,21 @@ nav ul li a:hover {
     color: #ff005f;
 }
 
+
+/* Navigation underline */
+
 nav ul li a::after {
-    content: '';
+    content: "";
+
     width: 0;
     height: 3px;
+
     background: #ff005f;
+
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: -7px;
+
     transition: width 0.4s ease;
 }
 
@@ -107,55 +127,85 @@ nav ul li a:hover::after {
 
 
 /* =========================================================
+   IMPORTANT:
+   MENU + CROSS ARE COMPLETELY HIDDEN ON PC
+========================================================= */
+
+.open-menu,
+.close-menu {
+    display: none;
+}
+
+
+/* =========================================================
    HEADER TEXT
 ========================================================= */
 
 .headr-text {
     margin-top: 15vh;
-    max-width: 800px;
+    max-width: 850px;
 }
 
 .headr-text p {
     margin-top: 30px;
+
     font-size: clamp(20px, 2.5vw, 30px);
     font-family: cursive;
-    color: #ff002f;
     font-weight: bold;
+
+    color: #ff002f;
 }
 
 .headr-text h2 {
     margin-top: 20px;
+
     font-size: clamp(18px, 2vw, 24px);
     font-family: cursive;
-    color: #f5f5f5;
     font-style: italic;
+
+    color: #f5f5f5;
 }
 
 .headr-text h1 {
     margin-top: 5px;
+
     font-size: clamp(40px, 6vw, 70px);
     line-height: 1.1;
+
     color: burlywood;
-    cursor: pointer;
     font-weight: bold;
+
+    cursor: pointer;
 }
 
 .headr-text h1 span {
-    color: red;
-    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000;
+
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
 }
 
 .animated-text {
-    margin-top: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: clamp(18px, 2vw, 24px);
-    font-weight: 300;
+    margin-top: 20px;
+
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(17px, 2vw, 23px);
+    font-weight: 400;
+
+    line-height: 1.6;
+
     color: whitesmoke;
+
     animation: pulseGlow 1s ease-in-out infinite alternate;
 }
 
+
+/* =========================================================
+   GLOW ANIMATION
+========================================================= */
+
 @keyframes pulseGlow {
+
     0% {
         opacity: 0.6;
         text-shadow: 0 0 0 transparent;
@@ -165,11 +215,12 @@ nav ul li a:hover::after {
         opacity: 1;
         text-shadow: 0 0 12px whitesmoke;
     }
+
 }
 
 
 /* =========================================================
-   SECTION COMMON STYLING
+   COMMON SECTION
 ========================================================= */
 
 section {
@@ -177,15 +228,17 @@ section {
 }
 
 .sub-title {
+    margin-bottom: 30px;
+
     font-size: clamp(40px, 5vw, 60px);
     font-weight: 600;
-    color: #fff;
-    margin-bottom: 30px;
+
+    color: #ffffff;
 }
 
 
 /* =========================================================
-   ABOUT SECTION
+   ABOUT
 ========================================================= */
 
 #about {
@@ -193,15 +246,18 @@ section {
     color: beige;
 }
 
-#about h1 {
-    color: #ababab;
+#about p {
+    line-height: 1.7;
 }
 
 .row {
     display: flex;
+
     justify-content: space-between;
     align-items: flex-start;
+
     flex-wrap: wrap;
+
     gap: 40px;
 }
 
@@ -212,6 +268,7 @@ section {
 .about-col-1 img {
     width: 100%;
     display: block;
+
     border-radius: 25px;
 }
 
@@ -228,32 +285,40 @@ section {
 .tab-titles {
     display: flex;
     flex-wrap: wrap;
+
     gap: 25px;
-    margin: 10px 0 40px;
+
+    margin: 35px 0 40px;
 }
 
 .tab-links {
-    margin-right: 25px;
+    margin-right: 15px;
+
     font-size: 18px;
     font-weight: 500;
+
     cursor: pointer;
+
     position: relative;
-    white-space: nowrap;
 }
 
 .tab-links::after {
-    content: '';
+    content: "";
+
     width: 0;
-    height: 5px;
+    height: 4px;
+
     background: #ff005f;
+
     position: absolute;
     left: 0;
     bottom: -8px;
-    transition: width 0.5s ease;
+
+    transition: width 0.4s ease;
 }
 
 .tab-links.active-link::after {
-    width: 45%;
+    width: 50%;
 }
 
 .tab-contents {
@@ -270,8 +335,10 @@ section {
 
 .tab-contents ul li {
     list-style: none;
-    margin: 12px 0;
-    line-height: 1.6;
+
+    margin: 14px 0;
+
+    line-height: 1.7;
 }
 
 .tab-contents ul li span {
@@ -281,75 +348,7 @@ section {
 
 
 /* =========================================================
-   SERVICES SECTION
-========================================================= */
-
-#services {
-    padding: 70px 0;
-}
-
-#services h1 {
-    color: #ababab;
-}
-
-.services-list {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.services-list div {
-    background: #321e1e;
-    padding: 30px;
-    font-size: 15px;
-    font-weight: 300;
-    border-radius: 25px;
-    transition:
-        background 0.5s ease,
-        transform 0.5s ease,
-        box-shadow 0.5s ease;
-}
-
-.services-list div i {
-    font-size: 50px;
-    margin-bottom: 25px;
-}
-
-.services-list div h2 {
-    color: antiquewhite;
-    font-size: 26px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.services-list div p {
-    color: #ababab;
-    line-height: 1.6;
-}
-
-.services-list div a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 13px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-.services-list div:hover {
-    background: #ff005f;
-    color: #fff;
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(255, 0, 95, 0.25);
-}
-
-.services-list div:hover p {
-    color: #fff;
-}
-
-
-/* =========================================================
-   PORTFOLIO SECTION
+   PORTFOLIO / EXPERTISE
 ========================================================= */
 
 #portfolio {
@@ -358,79 +357,85 @@ section {
 
 .work-list {
     display: grid;
+
     grid-template-columns: repeat(3, minmax(0, 1fr));
+
     gap: 30px;
+
     margin-top: 50px;
 }
 
 .work {
-    border-radius: 15px;
     position: relative;
+
     overflow: hidden;
-    background: #111;
+
+    border-radius: 15px;
+
+    background: #111111;
 }
 
 .work img {
     width: 100%;
+
     aspect-ratio: 16 / 10;
+
     object-fit: cover;
+
     display: block;
+
     border-radius: 15px;
+
     transition: transform 0.5s ease;
 }
 
 .layer {
     width: 100%;
     height: 0;
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    padding: 0 35px;
+
+    text-align: center;
+
     background: linear-gradient(
         rgba(0, 0, 0, 0.65),
         #ff005f
     );
 
     border-radius: 15px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    padding: 0 40px;
-    text-align: center;
-    font-size: 14px;
 
     transition: height 0.5s ease;
 }
 
 .layer h2 {
-    font-weight: 500;
     margin-bottom: 15px;
+
     color: floralwhite;
+
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .layer p {
-    line-height: 1.5;
-}
+    color: #ffffff;
 
-.layer a {
-    margin-top: 20px;
-    color: #ff001f;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
+    font-size: 14px;
 
-.layer a:hover {
-    transform: scale(1.1);
+    line-height: 1.6;
 }
 
 .work:hover img {
@@ -448,15 +453,20 @@ section {
 
 .btn {
     display: block;
-    margin: 50px auto;
+
     width: fit-content;
 
-    border: 2px solid #ff005f;
+    margin: 50px auto;
+
     padding: 14px 25px;
+
+    border: 2px solid #ff005f;
     border-radius: 6px;
 
     text-decoration: none;
+
     color: antiquewhite;
+
     font-weight: bold;
 
     transition:
@@ -467,14 +477,104 @@ section {
 
 .btn:hover {
     background: #ff005f;
-    color: #fff;
+    color: #ffffff;
+
     transform: translateY(-3px);
 }
 
 
 /* =========================================================
-   CONTACT SECTION
+   ACHIEVEMENTS / SERVICES
 ========================================================= */
+
+#services {
+    padding: 70px 0;
+}
+
+.services-list {
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 30px;
+
+    margin-top: 50px;
+}
+
+.services-list > div {
+    background: #321e1e;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    transition:
+        background 0.5s ease,
+        transform 0.5s ease,
+        box-shadow 0.5s ease;
+}
+
+.services-list > div i {
+    display: block;
+
+    font-size: 50px;
+
+    margin-bottom: 25px;
+}
+
+.services-list > div h2 {
+    margin-bottom: 15px;
+
+    color: antiquewhite;
+
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.services-list > div p {
+    color: #ababab;
+
+    line-height: 1.6;
+}
+
+.services-list > div a {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 25px;
+
+    transition: transform 0.3s ease;
+}
+
+.services-list > div a:hover {
+    transform: translateY(-5px);
+}
+
+.services-list > div:hover {
+    background: #ff005f;
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 30px rgba(255, 0, 95, 0.25);
+}
+
+.services-list > div:hover p {
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+#contact {
+    padding-top: 70px;
+}
 
 .contact-left {
     flex: 1 1 320px;
@@ -486,36 +586,54 @@ section {
 
 .contact-left h1 {
     color: bisque;
-    transition: transform 0.3s ease, color 0.3s ease;
+
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
 }
 
 .contact-left h1:hover {
     color: #ff004f;
+
     transform: translateY(-8px);
 }
 
 .contact-left p {
     margin-top: 25px;
+
     color: bisque;
+
     line-height: 1.6;
+
+    word-break: break-word;
 }
 
 .contact-left p i {
-    color: #ababab;
     margin-right: 15px;
+
+    color: #ababab;
+
     font-size: 25px;
-    transition: transform 0.3s ease, color 0.3s ease;
+
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
 }
 
 .contact-left p i:hover {
     color: #ff004f;
+
     transform: translateY(-5px);
 }
 
 .contact-right h2 {
     margin-top: 40px;
+
     color: bisque;
+
     text-align: center;
+
+    line-height: 1.5;
 }
 
 
@@ -528,18 +646,24 @@ section {
 }
 
 .social-icons a {
-    text-decoration: none;
-    font-size: 40px;
-    margin-right: 15px;
-    color: #ababab;
     display: inline-block;
+
+    margin-right: 15px;
+
+    color: #ababab;
+
+    text-decoration: none;
+
+    font-size: 40px;
+
     transition:
-        transform 0.3s ease,
-        color 0.3s ease;
+        color 0.3s ease,
+        transform 0.3s ease;
 }
 
 .social-icons a:hover {
     color: #ff004f;
+
     transform: translateY(-8px);
 }
 
@@ -550,17 +674,28 @@ section {
 
 .copyright {
     width: 100%;
-    text-align: center;
-    padding: 25px 15px;
-    background: #262626;
-    font-weight: 300;
+
     margin-top: 20px;
+
+    padding: 25px 15px;
+
+    text-align: center;
+
+    background: #262626;
 }
 
-.copyright h2,
+.copyright h2 {
+    color: beige;
+
+    font-size: 20px;
+
+    margin-bottom: 8px;
+}
+
 .copyright h3 {
     color: beige;
-    margin-bottom: 8px;
+
+    font-size: 16px;
 }
 
 .copyright i {
@@ -569,17 +704,7 @@ section {
 
 
 /* =========================================================
-   MOBILE MENU ICONS
-========================================================= */
-
-nav .fa-sharp,
-nav .fa-mosaic {
-    display: none;
-}
-
-
-/* =========================================================
-   LARGE TABLETS / SMALL LAPTOPS
+   LAPTOP / SMALL DESKTOP
 ========================================================= */
 
 @media only screen and (max-width: 1100px) {
@@ -593,19 +718,20 @@ nav .fa-mosaic {
         margin: 10px 12px;
     }
 
-    .services-list,
-    .work-list {
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .work-list,
+    .services-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .headr-text {
-        margin-top: 12vh;
-    }
 }
 
 
 /* =========================================================
-   TABLETS
+   TABLET
 ========================================================= */
 
 @media only screen and (max-width: 768px) {
@@ -621,12 +747,8 @@ nav .fa-mosaic {
     }
 
     .headr-text {
-        margin-top: 15vh;
+        margin-top: 12vh;
         max-width: 90%;
-    }
-
-    .headr-text h1 {
-        font-size: clamp(38px, 8vw, 55px);
     }
 
     .about-col-1,
@@ -637,23 +759,21 @@ nav .fa-mosaic {
     }
 
     .about-col-1 {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
-    .services-list,
-    .work-list {
+    .work-list,
+    .services-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+
         gap: 20px;
     }
 
-    .services-list div {
-        padding: 25px;
-    }
 }
 
 
 /* =========================================================
-   MOBILE
+   MOBILE ONLY
 ========================================================= */
 
 @media only screen and (max-width: 600px) {
@@ -663,94 +783,151 @@ nav .fa-mosaic {
         padding-right: 6%;
     }
 
-    /* Header */
+
+    /* =====================================================
+       MOBILE HEADER
+    ====================================================== */
 
     #header {
         min-height: 100vh;
-        background-image: url(images/phone-background.jpg);
+
+        background-image: url("images/phone-background.jpg");
+
         background-position: center top;
     }
 
-    /* Navigation */
 
-    nav {
-        padding-top: 15px;
-    }
+    /* =====================================================
+       MOBILE MENU BUTTON
+       VISIBLE ONLY ON MOBILE
+    ====================================================== */
 
-    .logo {
-        width: 110px;
-    }
-
-    nav .fa-sharp,
-    nav .fa-mosaic {
+    .open-menu {
         display: block;
-        font-size: 25px;
+
+        font-size: 27px;
+
+        color: #ffffff;
+
         cursor: pointer;
     }
 
+
+    /* =====================================================
+       MOBILE SIDE MENU
+    ====================================================== */
+
     nav ul {
-        background: #ff004f;
         position: fixed;
+
         top: 0;
         right: -260px;
 
         width: 250px;
         max-width: 80%;
+
         height: 100vh;
 
         padding-top: 70px;
 
         display: block;
-        z-index: 999;
+
+        background: #ff004f;
+
+        z-index: 9999;
 
         transition: right 0.5s ease;
+
+        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.4);
     }
+
 
     nav ul li {
         display: block;
+
         margin: 25px 30px;
     }
 
+
     nav ul li a {
         font-size: 18px;
+
+        color: #ffffff;
     }
 
-    nav ul .fa-sharp {
+
+    nav ul li a:hover {
+        color: #000000;
+    }
+
+
+    /* =====================================================
+       MOBILE CROSS BUTTON
+       VISIBLE ONLY INSIDE MOBILE MENU
+    ====================================================== */
+
+    .close-menu {
+        display: block;
+
         position: absolute;
-        top: 25px;
+
+        top: 20px;
         left: 25px;
+
+        margin: 0;
+    }
+
+    .close-menu i {
+        display: block;
+
+        font-size: 27px;
+
+        color: #ffffff;
+
         cursor: pointer;
     }
 
-    /* Header text */
+
+    /* =====================================================
+       MOBILE HEADER TEXT
+    ====================================================== */
 
     .headr-text {
-        margin-top: 45vh;
+        margin-top: 40vh;
+
         max-width: 100%;
     }
 
     .headr-text p {
+        margin-top: 15px;
+
         font-size: 18px;
-        margin-top: 20px;
     }
 
     .headr-text h2 {
-        font-size: 17px;
         margin-top: 15px;
+
+        font-size: 17px;
     }
 
     .headr-text h1 {
         font-size: clamp(32px, 10vw, 48px);
-        line-height: 1.15;
+
+        line-height: 1.2;
     }
 
     .animated-text {
-        font-size: 17px;
+        margin-top: 15px;
+
+        font-size: 16px;
+
         line-height: 1.5;
     }
 
 
-    /* About */
+    /* =====================================================
+       ABOUT
+    ====================================================== */
 
     #about {
         padding: 60px 0;
@@ -769,55 +946,37 @@ nav .fa-mosaic {
         flex-basis: 100%;
     }
 
-    .about-col-1 {
-        margin-bottom: 10px;
-    }
-
     .about-col-2 {
         font-size: 14px;
     }
 
 
-    /* Tabs */
+    /* =====================================================
+       TABS
+    ====================================================== */
 
     .tab-titles {
         gap: 15px;
-        margin-bottom: 30px;
+
+        margin: 30px 0;
     }
 
     .tab-links {
-        margin-right: 10px;
+        margin-right: 5px;
+
         font-size: 16px;
     }
 
     .tab-contents ul li {
         font-size: 14px;
+
+        line-height: 1.6;
     }
 
 
-    /* Services */
-
-    #services {
-        padding: 50px 0;
-    }
-
-    .services-list {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        margin-top: 35px;
-    }
-
-    .services-list div {
-        padding: 25px;
-        border-radius: 20px;
-    }
-
-    .services-list div h2 {
-        font-size: 25px;
-    }
-
-
-    /* Portfolio */
+    /* =====================================================
+       PORTFOLIO
+    ====================================================== */
 
     #portfolio {
         padding: 50px 0;
@@ -825,7 +984,9 @@ nav .fa-mosaic {
 
     .work-list {
         grid-template-columns: 1fr;
+
         gap: 25px;
+
         margin-top: 35px;
     }
 
@@ -834,7 +995,7 @@ nav .fa-mosaic {
     }
 
     .layer h2 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .layer p {
@@ -842,59 +1003,102 @@ nav .fa-mosaic {
     }
 
 
-    /* Button */
+    /* =====================================================
+       BUTTON
+    ====================================================== */
 
     .btn {
         margin: 35px auto;
+
         padding: 12px 20px;
+
         font-size: 14px;
     }
 
 
-    /* Contact */
+    /* =====================================================
+       ACHIEVEMENTS
+    ====================================================== */
+
+    #services {
+        padding: 50px 0;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        margin-top: 35px;
+    }
+
+    .services-list > div {
+        padding: 25px;
+
+        border-radius: 20px;
+    }
+
+    .services-list > div h2 {
+        font-size: 24px;
+    }
+
+
+    /* =====================================================
+       CONTACT
+    ====================================================== */
+
+    #contact {
+        padding-top: 50px;
+    }
 
     .contact-left,
     .contact-right {
         flex-basis: 100%;
     }
 
-    .contact-right h2 {
-        margin-top: 35px;
-        font-size: 20px;
-    }
-
     .contact-left p {
         font-size: 14px;
     }
 
+    .contact-right h2 {
+        margin-top: 30px;
 
-    /* Social icons */
+        font-size: 19px;
+    }
+
+
+    /* =====================================================
+       SOCIAL ICONS
+    ====================================================== */
 
     .social-icons a {
         font-size: 32px;
+
         margin-right: 10px;
     }
 
 
-    /* Copyright */
+    /* =====================================================
+       COPYRIGHT
+    ====================================================== */
 
     .copyright {
-        font-size: 13px;
         padding: 20px 10px;
     }
 
     .copyright h2 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .copyright h3 {
-        font-size: 15px;
+        font-size: 14px;
     }
+
 }
 
 
 /* =========================================================
-   VERY SMALL PHONES
+   VERY SMALL MOBILE
 ========================================================= */
 
 @media only screen and (max-width: 380px) {
@@ -909,23 +1113,23 @@ nav .fa-mosaic {
     }
 
     .headr-text {
-        margin-top: 40vh;
-    }
-
-    .headr-text h1 {
-        font-size: 30px;
+        margin-top: 35vh;
     }
 
     .headr-text p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .headr-text h2 {
         font-size: 15px;
     }
 
+    .headr-text h1 {
+        font-size: 30px;
+    }
+
     .animated-text {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .sub-title {
@@ -936,31 +1140,34 @@ nav .fa-mosaic {
         font-size: 14px;
     }
 
-    .services-list div h2 {
-        font-size: 22px;
+    .services-list > div h2 {
+        font-size: 21px;
     }
 
     .social-icons a {
         font-size: 28px;
     }
+
 }
 
 
 /* =========================================================
-   LANDSCAPE MOBILE
+   MOBILE LANDSCAPE
 ========================================================= */
 
-@media only screen and (max-height: 500px) and (orientation: landscape) {
+@media only screen and (max-height: 500px)
+       and (orientation: landscape) {
 
     #header {
         min-height: 650px;
     }
 
     .headr-text {
-        margin-top: 10vh;
+        margin-top: 8vh;
     }
 
     nav ul {
         overflow-y: auto;
     }
+
 }
