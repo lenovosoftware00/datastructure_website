@@ -1171,3 +1171,108 @@ section {
     }
 
 }
+
+
+/* =========================
+   MOBILE HEADER TEXT FIX
+   ========================= */
+
+@media only screen and (max-width: 600px) {
+
+    #header {
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header-text {
+        width: 100%;
+        padding: 0 25px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        text-align: left;
+        z-index: 2;
+    }
+
+    /* ASPIRING DATA ANALYST */
+    .header-text p {
+        font-size: 18px;
+        font-weight: 700;
+        color: #ff004f;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+    }
+
+    /* HI, I'M */
+    .header-text h1 {
+        font-size: 42px;
+        line-height: 1.15;
+        color: #ffffff;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-shadow:
+            0 2px 5px rgba(0, 0, 0, 0.95),
+            0 0 12px rgba(0, 0, 0, 0.8);
+    }
+
+    /* NAME */
+    .header-text h1 span {
+        display: block;
+        color: #ff004f;
+        font-size: 43px;
+        font-weight: 800;
+        margin-top: 5px;
+        text-shadow:
+            0 2px 5px rgba(0, 0, 0, 0.95),
+            0 0 15px rgba(0, 0, 0, 0.8);
+    }
+
+    /* ANIMATED STATEMENT */
+    .header-text .animated-text,
+    .header-text .typing,
+    .header-text .typewriter {
+        display: block;
+        margin-top: 18px;
+        font-size: 17px;
+        line-height: 1.5;
+        font-weight: 600;
+        color: #ffffff;
+        max-width: 100%;
+        text-shadow:
+            0 2px 6px rgba(0, 0, 0, 1),
+            0 0 10px rgba(0, 0, 0, 0.9);
+    }
+
+    /* If the animated text is inside a span */
+    .header-text h1 + span,
+    .header-text h1 + div {
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 600;
+        text-shadow:
+            0 2px 6px rgba(0, 0, 0, 1),
+            0 0 10px rgba(0, 0, 0, 0.9);
+    }
+
+    /* Dark overlay improves readability over background image */
+    #header::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: 1;
+    }
+
+    #header nav {
+        position: relative;
+        z-index: 10000;
+    }
+
+    /* Keep header content above overlay */
+    #header .header-text {
+        z-index: 5;
+    }
+}
