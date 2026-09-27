@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- ---- header logo and the buttons ----- -->
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">EXPERTIES</a></li>
+                <li><a href="#services">ACHIVEMENTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-mosaic fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!-- ----- main portfolio text ----- -->
+        <div class="headr-text">
+            <p>ASPIRING DATA ANALYST</p>
+            <h2>Hi, I'm </h2>
+            <h1>&nbsp;&nbsp;&nbsp;Hrishikesh <span>Anand</span></h1>
+            <h3 class="animated-text">
+                <br><br>
+                <strong><span>Transform un-clean, raw business data<br>into actionable decision-making insights dashboard.</span></strong>
+            </h3>
+        </div>
+    </div>
+</div>
+<!-- -----about me section ----- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">👤About Me</h1>
+                <p>Detail-oriented <strong> Data Analyst </strong> with hands-on experience in <strong> data analysis, exploratory data analysis (EDA), data cleaning, data transformation, KPI reporting, dashboard development, and operational as-well-as financial data analysis.</strong> <br>Proficient knowledge in <strong>SQL, Python, Power BI, Advanced Excel, Google Sheets, and Figma</strong>, with experienced knowledge in transforming raw operational & financial datasets into <strong>actionable business insights</strong>. <br>Skilled in <strong>data visualization, statistical analysis, trend analysis, ETL, database querying, and KPI dashboard development</strong>. Experience in supporting <strong>data-driven decision-making, business intelligence, operational analytics, and stakeholder reporting</strong>.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span><strong>SQL</strong></span> - Pull data from databasases.</li>
+                        <li><span><strong>Python</strong></span> - For the analyzing of data structure.</li>
+                        <li><span><strong>Ms Excel</strong></span> - For analytical calculation and formulas.</li>
+                        <li><span><strong>PowerBi</strong></span> - For preparing the insights dashboard.</li>
+                        <li><span><strong>KPI Dashboard</strong></span> -Visualizing key-performance insights from the data.</li>
+                        <li><span><strong>Data Cleaning</strong></span> - Transforming data for a proper analysis.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>▫️&nbsp;<strong>Concentrix Daksh Services India Pvt. Ltd.</strong></span>&nbsp;-&nbsp;<br>Ranchi, Jharkhand, India&nbsp[June-2023 to May-2024]<br>Customer Support Executive</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>▫️&nbsp;Post Graduation</span>&nbsp;-&nbsp;<br>Indira Gandhi National Open University (IGNOU)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2024 to 2026]<br>Ranchi, Jharkhand, India</li>
+                        <li><span>▫️&nbsp;Under Graduation</span>&nbsp;-&nbsp;<br>Binod Bihari Mahto Koyalanchal University (BBMKU)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2019 to 2022]<br>Dhanbad, Jharkhand, India</li>
+                        <li><span>▫️&nbsp;Intermediate</span>&nbsp;-&nbsp;<br>S. L. Arya Inter College&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2017 to 2019]<br>Bokaro Steel City, Bokaro, Jharkhand, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
+
+<!-- ----- portfolio section ----- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Expertise :-</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h2>Data Cleaning;</h2>
+                    <p>Cleaning the company/business raw data to make it meaningful for further analysis.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h2>Data Analysis;</h2>
+                    <p>Analyzing the transformed data to prepare the performance indicating insights to prepare the insights-dashboard.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h2>Insights Dashboard;</h2>
+                    <p>Preparing an actionable decision-making, insights dashboard that helps company/business for better decision-making.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"><strong>See more .....</strong></a>
+    </div>
+</div>
+
+<!-- ----- my acnivements section ----- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Achivements</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-briefcase"></i>
+                <h2>Real-time Projects;</h2>
+                <p><strong>Contains the detailed presentation for the Compnay/Business oriented real-time projects.</strong></p>
+                <a href="#">🔗&nbsp;</a>
+            </div>
+            <div>
+                <i class="fas fa-cogs"></i>
+                <h2>Practical Projects;</h2>
+                <p><strong>Contains the detailed presentation for the projects prepared by me.</strong></p>
+                <a href="#">🔗&nbsp;</a>
+            </div>
+            <div>
+                <i class="fas fa-award"></i>
+                <h2>Certificate Achieved;</h2>
+                <p><strong>Contains the details of my certification achievement.</strong></p>
+                <a href="#">🔗&nbsp;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i><strong>hrishikeshanand.analyst@gmail.com</strong></p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 7667910819</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <h2><strong>Click below mentioned button to Download C V :- </strong></h2>
+                <a href="images/my-cv.pdf" download class="btn btn2"><strong>Download C V</strong></a>
+                <!-- <form>
+                     <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="email" placeholder="Your Email" required>
+                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit">Submit</button>
+                </form> -->
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <h2><i class="fa-solid fa-copyright"></i> Copyright Hrishikesh Anand</h2>
+        <h3>Made with <i class="fas fa-heart"></i> by Hrishikesh Anand.</h3>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+   function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
