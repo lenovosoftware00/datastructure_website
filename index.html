@@ -64,7 +64,7 @@
                         <a href="#contact">CONTACT</a>
                     </li>
 
-                    <!-- Mobile Close Button -->
+                    <!-- Cross button - MOBILE ONLY -->
                     <li class="close-menu">
                         <i class="fa-solid fa-xmark"
                            onclick="closemenu()"
@@ -73,7 +73,7 @@
 
                 </ul>
 
-                <!-- Mobile Open Button -->
+                <!-- Menu button - MOBILE ONLY -->
                 <i class="fa-solid fa-bars open-menu"
                    onclick="openmenu()"
                    aria-label="Open menu"></i>
@@ -336,7 +336,7 @@
 
 
     <!-- =====================================================
-         EXPERTISE / PORTFOLIO SECTION
+         EXPERTISE / PORTFOLIO
     ====================================================== -->
 
     <section id="portfolio">
@@ -358,9 +358,7 @@
 
                     <div class="layer">
 
-                        <h2>
-                            Data Cleaning
-                        </h2>
+                        <h2>Data Cleaning</h2>
 
                         <p>
                             Cleaning company and business raw data
@@ -380,9 +378,7 @@
 
                     <div class="layer">
 
-                        <h2>
-                            Data Analysis
-                        </h2>
+                        <h2>Data Analysis</h2>
 
                         <p>
                             Analyzing transformed data to prepare
@@ -395,7 +391,7 @@
                 </div>
 
 
-                <!-- Insights Dashboard -->
+                <!-- Dashboard -->
                 <div class="work">
 
                     <img src="images/work-3.png"
@@ -403,9 +399,7 @@
 
                     <div class="layer">
 
-                        <h2>
-                            Insights Dashboard
-                        </h2>
+                        <h2>Insights Dashboard</h2>
 
                         <p>
                             Preparing actionable decision-making
@@ -430,7 +424,7 @@
 
 
     <!-- =====================================================
-         ACHIEVEMENTS SECTION
+         ACHIEVEMENTS
     ====================================================== -->
 
     <section id="services">
@@ -450,17 +444,14 @@
                     <i class="fas fa-briefcase"
                        aria-hidden="true"></i>
 
-                    <h2>
-                        Real-Time Projects
-                    </h2>
+                    <h2>Real-Time Projects</h2>
 
                     <p>
                         Contains detailed presentations for
                         company/business-oriented real-time projects.
                     </p>
 
-                    <a href="#"
-                       aria-label="Real-Time Projects">
+                    <a href="#" aria-label="Real-Time Projects">
                         🔗
                     </a>
 
@@ -473,17 +464,14 @@
                     <i class="fas fa-cogs"
                        aria-hidden="true"></i>
 
-                    <h2>
-                        Practical Projects
-                    </h2>
+                    <h2>Practical Projects</h2>
 
                     <p>
                         Contains detailed presentations for
                         practical data analytics projects prepared by me.
                     </p>
 
-                    <a href="#"
-                       aria-label="Practical Projects">
+                    <a href="#" aria-label="Practical Projects">
                         🔗
                     </a>
 
@@ -496,17 +484,14 @@
                     <i class="fas fa-award"
                        aria-hidden="true"></i>
 
-                    <h2>
-                        Certificates Achieved
-                    </h2>
+                    <h2>Certificates Achieved</h2>
 
                     <p>
                         Contains details and documentation of
                         my certification achievements.
                     </p>
 
-                    <a href="#"
-                       aria-label="Certificates Achieved">
+                    <a href="#" aria-label="Certificates Achieved">
                         🔗
                     </a>
 
@@ -520,7 +505,7 @@
 
 
     <!-- =====================================================
-         CONTACT SECTION
+         CONTACT
     ====================================================== -->
 
     <section id="contact">
@@ -529,13 +514,12 @@
 
             <div class="row">
 
-                <!-- Contact Left -->
+                <!-- Contact Information -->
                 <div class="contact-left">
 
                     <h1 class="sub-title">
                         Contact Me
                     </h1>
-
 
                     <p>
                         <i class="fas fa-paper-plane"
@@ -545,7 +529,6 @@
                             hrishikeshanand.analyst@gmail.com
                         </strong>
                     </p>
-
 
                     <p>
                         <i class="fas fa-phone-square-alt"
@@ -569,7 +552,6 @@
 
                         </a>
 
-
                         <a href="#"
                            target="_blank"
                            rel="noopener noreferrer"
@@ -584,13 +566,12 @@
                 </div>
 
 
-                <!-- Contact Right -->
+                <!-- CV -->
                 <div class="contact-right">
 
                     <h2>
                         Click below to download my CV
                     </h2>
-
 
                     <a href="images/my-cv.pdf"
                        download
@@ -634,9 +615,9 @@
 
     <script>
 
-        /* ==============================
+        /* =====================================================
            TABS
-        ============================== */
+        ====================================================== */
 
         const tablinks =
             document.getElementsByClassName("tab-links");
@@ -663,31 +644,27 @@
         }
 
 
-        /* ==============================
+        /* =====================================================
            MOBILE MENU
-        ============================== */
+        ====================================================== */
 
         const sidemenu =
             document.getElementById("sidemenu");
 
 
         function openmenu() {
-
             sidemenu.style.right = "0";
-
         }
 
 
         function closemenu() {
-
             sidemenu.style.right = "-260px";
-
         }
 
 
-        /* ==============================
-           CLOSE MENU AFTER CLICK
-        ============================== */
+        /* =====================================================
+           CLOSE MENU AFTER CLICKING LINK
+        ====================================================== */
 
         const menuLinks =
             document.querySelectorAll("#sidemenu a");
@@ -698,9 +675,7 @@
             link.addEventListener("click", function () {
 
                 if (window.innerWidth <= 600) {
-
                     closemenu();
-
                 }
 
             });
