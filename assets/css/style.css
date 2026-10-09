@@ -4,7 +4,7 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
     /*===== Colors =====*/
-    --hue-color:242;
+    --hue-color: 242;
 
     /* HSL Color Mode */
     --skin-color: hsl(342, 92%, 46%);
@@ -104,7 +104,6 @@ button{
     cursor: pointer;
 }
 
-
 button,
 input{
     border: none;
@@ -121,9 +120,6 @@ input{
 .grid{
     display: grid;
 }
-
-
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
@@ -142,7 +138,6 @@ input{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: var(--skin-color);
-
 }
 
 /*=============== SIDEBAR ===============*/
@@ -150,12 +145,10 @@ input{
     position: fixed;
     width: 100px;
     height: 100vh;
-    /* background-color: var(--body-color); */
     background-color: #121212;
     border-right: 1px solid var(--box-color);
     transition: .5s;
 }
-
 
 .nav__logo {
     position: absolute;
@@ -260,15 +253,15 @@ input{
     margin: auto;    
 }
 
-
 /*=============== MAIN ===============*/
 .main {
     margin-left: 100px;
 }
 
-/*===== Home Section =====*/
+/*===== Home Section (FIXED PATH FOR GITHUB PAGES) =====*/
 .home {
-    background: url('assets/img/home-bg.jpg');
+    background-color: #121212; /* Fallback color in case image loading delays */
+    background-image: url('assets/img/home-bg.jpg');
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -292,7 +285,6 @@ input{
 
 .home__social-follow{
     font-weight: var(--font-medium);
-    font: bold;
     color: darkkhaki;
     position: relative;
     font-family: cursive;
@@ -336,7 +328,6 @@ input{
     padding: 15px 0;
     margin-bottom: 25px;
     position: relative;
-    /* Soft fade edges for a professional look */
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
@@ -373,12 +364,10 @@ input{
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Pause on hover for desktop */
 .skills-marquee:hover .skills-track {
     animation-play-state: paused;
 }
 
-/* Hover effect for desktop / pointer devices */
 @media (hover: hover) and (pointer: fine) {
     .skill-box:hover {
         color: var(--skin-color, burlywood);
@@ -394,7 +383,6 @@ input{
     }
 }
 
-/* Keyframes: Using -50% requires the track content to be duplicated once in HTML */
 @keyframes skillsScroll {
     0% {
         transform: translateX(0);
@@ -404,11 +392,10 @@ input{
     }
 }
 
-/* Responsive tweaks for mobile devices */
 @media (max-width: 768px) {
     .skills-track {
         gap: 15px;
-        animation-duration: 20s; /* Slightly faster on mobile */
+        animation-duration: 20s;
     }
 
     .skill-box {
@@ -423,21 +410,10 @@ input{
     }
 }
 
-
-/* animated skills css code */
-/* ============================================================== */
-
-
-
-/* __________________________________________________________ */
 /* H1 NAME TITLE ANIMATION */
-
-
 .home__data h1 {
     color: burlywood;
     font-family: 'Times New Roman', Times, serif;
-    
-    /* Animation properties for the main heading */
     opacity: 0;
     transform: translateY(25px);
     animation: titleFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
@@ -446,15 +422,12 @@ input{
 .home__data h1 span {
     color: crimson;
     font-size: 28px;
-    
-    /* Animation properties for the span (name/subtitle) */
     display: inline-block;
     opacity: 0;
     transform: translateY(15px) scale(0.95);
     animation: spanFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
 }
 
-/* Keyframes for the main heading */
 @keyframes titleFadeIn {
     to {
         opacity: 1;
@@ -462,7 +435,6 @@ input{
     }
 }
 
-/* Keyframes for the span text (with a slight delay) */
 @keyframes spanFadeIn {
     to {
         opacity: 1;
@@ -475,15 +447,6 @@ input{
     font-family: cursive;
     font-size: 14px;
 }
-/* H1 NAME TITLE ANIMATION */
-/* _________________________________________ */
-
-/* ___________________________________________________ */
-
-/* .home__data p{
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-} */
 
 .home__data p {
     color: white;
@@ -492,18 +455,11 @@ input{
 }
 
 @keyframes neonPulse {
-    /* 0%, 100% {
-        opacity: 5;
-        text-shadow: 0 0 5px whitesmoke;
-    } */
-
     50% {
         opacity: 0.75;
-        text-shadow: 0 0 10px gray,
+        text-shadow: 0 0 10px gray;
     }
 }
-
-/* _______________________________________________ */
 
 .home__title{
     font-size: var(--biggest-font-size);
@@ -532,7 +488,6 @@ input{
     padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
-    /* left: 0; */
     right: 0;
     bottom: 0;
 }
@@ -599,7 +554,6 @@ input{
     font-size: 1.25rem;
 }
 
-
 /*===== About Section =====*/
 .about__container{
     grid-template-columns: repeat(2, 1fr);
@@ -651,7 +605,6 @@ input{
     font-size: var(--smaller-font-size);
 }
 
-
 /*===== Qualification Section =====*/
 .qualification__container{
     grid-template-columns: repeat(2, 340px);
@@ -669,10 +622,6 @@ input{
     position: relative;
     padding-left: 3rem;
     margin-bottom: var(--mb-2-5);
-}
-
-.timeline__item:lost-child{
-    margin-bottom: 0;
 }
 
 .timeline__item::before{
@@ -720,10 +669,7 @@ input{
     color: var(--skin-color);
 }
 
-
-
 /*===== Skills Section =====*/
-
 .skills__container {
     grid-template-columns: 360px 320px;
     column-gap: 3rem;
@@ -761,20 +707,17 @@ input{
 
 .skills__arrow {
     margin-left: auto;
-    transition: transform .45s; /* Moved transition here for smooth two-way animation */
+    transition: transform .45s;
 }
 
-/* Rotates the arrow when the tab header is active */
 .skills__header.skills__active .skills__arrow {
     transform: rotate(-90deg);
 }
 
-/* Hide all tab contents by default */
 .skills [data-content] {
     display: none;
 }
 
-/* Show content when active */
 .skills [data-content].skills__active {
     display: block;
 }
@@ -882,14 +825,10 @@ input{
     transform: translateX(.35rem);
 }
 
-
-/* Active Item Work */
 .active-work {
     background-color: var(--skin-color);
     color: var(--title-color);
-
 }
-
 
 /* Portfolio Popup */
 .portfolio__popup {
@@ -976,10 +915,9 @@ input{
     color: var(--skin-color);
 }
 
-
 /*===== Services Section =====*/
 .services__container {
-    grid-template-columns: repeat(4,250px);
+    grid-template-columns: repeat(4, 250px);
     justify-content: center;
     column-gap: 1.8rem;
 }
@@ -1092,17 +1030,10 @@ input{
     font-size: var(--small-font-size);
 }
 
-
-
-
-
-/* Active Modal*/
-
 .active-modal {
     opacity: 1;
     visibility: visible;
 }
-
 
 /*===== Testimonial Section =====*/
 @media screen and (min-width: 992px) {
@@ -1165,20 +1096,15 @@ input{
     font-size: var(--small-font-size);
 }
 
-
-/* Swiper Class */
-/* Normal pagination bullet */
 .swiper-pagination-bullet {
     background-color: var(--box-color) !important;
     opacity: 1;
 }
 
-/* Active pagination bullet */
 .swiper-pagination-bullet-active {
     background-color: var(--skin-color) !important;
     opacity: 1;
 }
-
 
 /*===== Contact Section =====*/
 .contact__container{
@@ -1239,13 +1165,7 @@ input{
     transform: translateX(.35rem);
 }
 
-
-
-
-
-
 /*=============== FOOTER ===============*/
-
 .footer{
     padding-top: 2rem;
 }
@@ -1314,13 +1234,6 @@ input{
     color: var(--title-color);
 }
 
-
-/*=============== SCROLL UP ===============*/
-
-
-/* Show Scroll Up*/
-
-
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
     width: .60rem;
@@ -1334,9 +1247,7 @@ input{
     width: .60rem;
 }
 
-
 /*========== BREAKPOINTS ==========*/
-/* For Large Devices */
 @media screen and (max-width: 1408px) {
     .container {
         margin-left: var(--mb-2-5);
@@ -1487,7 +1398,6 @@ input{
     }
 }
 
-/* For Medium Devices */
 @media screen and (max-width: 768px) {
     .about__img {
         width: 250px;
@@ -1564,8 +1474,6 @@ input{
     .portfolio__popup-close {
         top: .5rem;
     }
-
-
 }
 
 @media screen and (max-width: 576px) {
@@ -1575,7 +1483,9 @@ input{
     }
 
     .home {
-        background-image: none;
+        background-image: url('assets/img/home-bg.jpg'); /* Keep background on mobile too */
+        background-size: cover;
+        background-position: center center;
         height: initial;
         align-items: initial;
         padding: 7rem 0 2rem;
@@ -1644,10 +1554,8 @@ input{
     .footer__links {
         justify-self: flex-start;
     }
-
 }
 
-/* For Small Devices */
 @media screen and (max-width: 350px) {
     .container {
         margin-left: var(--mb-1);
@@ -1697,8 +1605,4 @@ input{
     .services__content {
         padding-right: 3.5rem;
     }
-
-
-
-
 }
