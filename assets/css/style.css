@@ -4,7 +4,7 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
     /*===== Colors =====*/
-    --hue-color: 242;
+    --hue-color:242;
 
     /* HSL Color Mode */
     --skin-color: hsl(342, 92%, 46%);
@@ -104,6 +104,7 @@ button{
     cursor: pointer;
 }
 
+
 button,
 input{
     border: none;
@@ -120,6 +121,9 @@ input{
 .grid{
     display: grid;
 }
+
+
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
@@ -138,6 +142,7 @@ input{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: var(--skin-color);
+
 }
 
 /*=============== SIDEBAR ===============*/
@@ -145,10 +150,12 @@ input{
     position: fixed;
     width: 100px;
     height: 100vh;
+    /* background-color: var(--body-color); */
     background-color: #121212;
     border-right: 1px solid var(--box-color);
     transition: .5s;
 }
+
 
 .nav__logo {
     position: absolute;
@@ -253,15 +260,15 @@ input{
     margin: auto;    
 }
 
+
 /*=============== MAIN ===============*/
 .main {
     margin-left: 100px;
 }
 
-/*===== Home Section (FIXED PATH FOR GITHUB PAGES) =====*/
+/*===== Home Section =====*/
 .home {
-    background-color: #121212; /* Fallback color in case image loading delays */
-    background-image: url('assets/img/home-bg.jpg');
+    background: url('/assets/img/home-bg.jpg');
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -285,6 +292,7 @@ input{
 
 .home__social-follow{
     font-weight: var(--font-medium);
+    font: bold;
     color: darkkhaki;
     position: relative;
     font-family: cursive;
@@ -328,6 +336,7 @@ input{
     padding: 15px 0;
     margin-bottom: 25px;
     position: relative;
+    /* Soft fade edges for a professional look */
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
@@ -364,10 +373,12 @@ input{
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+/* Pause on hover for desktop */
 .skills-marquee:hover .skills-track {
     animation-play-state: paused;
 }
 
+/* Hover effect for desktop / pointer devices */
 @media (hover: hover) and (pointer: fine) {
     .skill-box:hover {
         color: var(--skin-color, burlywood);
@@ -383,6 +394,7 @@ input{
     }
 }
 
+/* Keyframes: Using -50% requires the track content to be duplicated once in HTML */
 @keyframes skillsScroll {
     0% {
         transform: translateX(0);
@@ -392,10 +404,11 @@ input{
     }
 }
 
+/* Responsive tweaks for mobile devices */
 @media (max-width: 768px) {
     .skills-track {
         gap: 15px;
-        animation-duration: 20s;
+        animation-duration: 20s; /* Slightly faster on mobile */
     }
 
     .skill-box {
@@ -410,10 +423,21 @@ input{
     }
 }
 
+
+/* animated skills css code */
+/* ============================================================== */
+
+
+
+/* __________________________________________________________ */
 /* H1 NAME TITLE ANIMATION */
+
+
 .home__data h1 {
     color: burlywood;
     font-family: 'Times New Roman', Times, serif;
+    
+    /* Animation properties for the main heading */
     opacity: 0;
     transform: translateY(25px);
     animation: titleFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
@@ -422,12 +446,15 @@ input{
 .home__data h1 span {
     color: crimson;
     font-size: 28px;
+    
+    /* Animation properties for the span (name/subtitle) */
     display: inline-block;
     opacity: 0;
     transform: translateY(15px) scale(0.95);
     animation: spanFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
 }
 
+/* Keyframes for the main heading */
 @keyframes titleFadeIn {
     to {
         opacity: 1;
@@ -435,6 +462,7 @@ input{
     }
 }
 
+/* Keyframes for the span text (with a slight delay) */
 @keyframes spanFadeIn {
     to {
         opacity: 1;
@@ -447,6 +475,15 @@ input{
     font-family: cursive;
     font-size: 14px;
 }
+/* H1 NAME TITLE ANIMATION */
+/* _________________________________________ */
+
+/* ___________________________________________________ */
+
+/* .home__data p{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+} */
 
 .home__data p {
     color: white;
@@ -455,11 +492,18 @@ input{
 }
 
 @keyframes neonPulse {
+    /* 0%, 100% {
+        opacity: 5;
+        text-shadow: 0 0 5px whitesmoke;
+    } */
+
     50% {
         opacity: 0.75;
-        text-shadow: 0 0 10px gray;
+        text-shadow: 0 0 10px gray,
     }
 }
+
+/* _______________________________________________ */
 
 .home__title{
     font-size: var(--biggest-font-size);
@@ -488,6 +532,7 @@ input{
     padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
+    /* left: 0; */
     right: 0;
     bottom: 0;
 }
@@ -554,6 +599,7 @@ input{
     font-size: 1.25rem;
 }
 
+
 /*===== About Section =====*/
 .about__container{
     grid-template-columns: repeat(2, 1fr);
@@ -605,6 +651,7 @@ input{
     font-size: var(--smaller-font-size);
 }
 
+
 /*===== Qualification Section =====*/
 .qualification__container{
     grid-template-columns: repeat(2, 340px);
@@ -622,6 +669,10 @@ input{
     position: relative;
     padding-left: 3rem;
     margin-bottom: var(--mb-2-5);
+}
+
+.timeline__item:lost-child{
+    margin-bottom: 0;
 }
 
 .timeline__item::before{
@@ -669,7 +720,10 @@ input{
     color: var(--skin-color);
 }
 
+
+
 /*===== Skills Section =====*/
+
 .skills__container {
     grid-template-columns: 360px 320px;
     column-gap: 3rem;
@@ -707,17 +761,20 @@ input{
 
 .skills__arrow {
     margin-left: auto;
-    transition: transform .45s;
+    transition: transform .45s; /* Moved transition here for smooth two-way animation */
 }
 
+/* Rotates the arrow when the tab header is active */
 .skills__header.skills__active .skills__arrow {
     transform: rotate(-90deg);
 }
 
+/* Hide all tab contents by default */
 .skills [data-content] {
     display: none;
 }
 
+/* Show content when active */
 .skills [data-content].skills__active {
     display: block;
 }
@@ -825,10 +882,14 @@ input{
     transform: translateX(.35rem);
 }
 
+
+/* Active Item Work */
 .active-work {
     background-color: var(--skin-color);
     color: var(--title-color);
+
 }
+
 
 /* Portfolio Popup */
 .portfolio__popup {
@@ -915,9 +976,10 @@ input{
     color: var(--skin-color);
 }
 
+
 /*===== Services Section =====*/
 .services__container {
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(4,250px);
     justify-content: center;
     column-gap: 1.8rem;
 }
@@ -1030,10 +1092,17 @@ input{
     font-size: var(--small-font-size);
 }
 
+
+
+
+
+/* Active Modal*/
+
 .active-modal {
     opacity: 1;
     visibility: visible;
 }
+
 
 /*===== Testimonial Section =====*/
 @media screen and (min-width: 992px) {
@@ -1096,15 +1165,20 @@ input{
     font-size: var(--small-font-size);
 }
 
+
+/* Swiper Class */
+/* Normal pagination bullet */
 .swiper-pagination-bullet {
     background-color: var(--box-color) !important;
     opacity: 1;
 }
 
+/* Active pagination bullet */
 .swiper-pagination-bullet-active {
     background-color: var(--skin-color) !important;
     opacity: 1;
 }
+
 
 /*===== Contact Section =====*/
 .contact__container{
@@ -1165,7 +1239,13 @@ input{
     transform: translateX(.35rem);
 }
 
+
+
+
+
+
 /*=============== FOOTER ===============*/
+
 .footer{
     padding-top: 2rem;
 }
@@ -1234,6 +1314,13 @@ input{
     color: var(--title-color);
 }
 
+
+/*=============== SCROLL UP ===============*/
+
+
+/* Show Scroll Up*/
+
+
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
     width: .60rem;
@@ -1247,7 +1334,9 @@ input{
     width: .60rem;
 }
 
+
 /*========== BREAKPOINTS ==========*/
+/* For Large Devices */
 @media screen and (max-width: 1408px) {
     .container {
         margin-left: var(--mb-2-5);
@@ -1398,6 +1487,7 @@ input{
     }
 }
 
+/* For Medium Devices */
 @media screen and (max-width: 768px) {
     .about__img {
         width: 250px;
@@ -1474,6 +1564,8 @@ input{
     .portfolio__popup-close {
         top: .5rem;
     }
+
+
 }
 
 @media screen and (max-width: 576px) {
@@ -1483,9 +1575,7 @@ input{
     }
 
     .home {
-        background-image: url('assets/img/home-bg.jpg'); /* Keep background on mobile too */
-        background-size: cover;
-        background-position: center center;
+        background-image: none;
         height: initial;
         align-items: initial;
         padding: 7rem 0 2rem;
@@ -1554,8 +1644,10 @@ input{
     .footer__links {
         justify-self: flex-start;
     }
+
 }
 
+/* For Small Devices */
 @media screen and (max-width: 350px) {
     .container {
         margin-left: var(--mb-1);
@@ -1605,4 +1697,145 @@ input{
     .services__content {
         padding-right: 3.5rem;
     }
+
+
+
+
+}
+
+/* =========================================================
+   RESPONSIVE FIXES — append after the existing stylesheet
+   ========================================================= */
+html { scroll-padding-top: 1rem; }
+body { overflow-x: hidden; }
+img { display: block; max-width: 100%; }
+.container { width: min(100% - 2rem, 1250px); }
+.main { min-width: 0; }
+section[id] { scroll-margin-top: 1rem; }
+
+/* Desktop layout: avoid fixed-width grid overflow */
+@media (min-width: 1025px) {
+  .sidebar { transform: none; }
+  .nav__toggle { display: none; }
+  .main { margin-left: 100px; }
+  .home__container { min-height: 100vh; }
+  .work__container { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .services__container { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* Tablet and mobile navigation */
+@media (max-width: 1024px) {
+  .sidebar {
+    inset: 0 auto 0 0;
+    width: 100%;
+    height: 100dvh;
+    overflow-y: auto;
+    transform: translateX(-105%);
+    transition: transform .35s ease;
+    z-index: 9999;
+    background: rgba(12, 12, 18, .98);
+  }
+  .sidebar.show-sidebar { transform: translateX(0); }
+  .nav__toggle {
+    display: flex;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    left: auto;
+    z-index: 10000;
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 5px 18px rgba(0,0,0,.25);
+  }
+  .nav__close { display: block; color: #fff; z-index: 10001; }
+  .nav__menu {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 100%;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    margin: 0;
+  }
+  .nav__link { display: inline-block; line-height: 1.5; padding: .9rem 1.25rem; }
+  .nav__link.active-link::after, .nav__link:hover::after { bottom: .35rem; }
+  .main { margin-left: 0; }
+  .home { min-height: 100svh; height: auto; padding: 7rem 0 4rem; }
+  .home__container { min-height: auto; row-gap: 2rem; padding-top: 2rem; padding-bottom: 2rem; }
+  .home__social { right: 1rem; padding-right: 0; column-gap: 1rem; }
+  .my__info { position: relative; right: auto; bottom: auto; justify-self: center; flex-wrap: wrap; gap: 1rem; max-width: 100%; }
+  .about__container { grid-template-columns: minmax(0, 1fr); }
+  .about__description { padding: 0; }
+  .qualification__container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .skills__container { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2rem; }
+  .work__container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .services__container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .contact__container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 768px) {
+  .container { width: min(100% - 2rem, 620px); margin-left: auto; margin-right: auto; }
+  .section { padding: 4.5rem 0 1.5rem; }
+  .section__title { font-size: clamp(1.45rem, 5vw, 2rem); margin-bottom: 2rem; }
+  .home { padding-top: 6rem; }
+  .home__container { display: flex; flex-direction: column; align-items: stretch; gap: 1.5rem; }
+  .home__social { position: static; order: 0; align-self: flex-end; flex-direction: row; gap: 1rem; margin-bottom: .5rem; }
+  .home__social-follow::after { display: none; }
+  .home__social-links { display: flex; flex-direction: row; gap: .75rem; }
+  .skills-marquee { width: 100%; margin: 0 0 .5rem; }
+  .home__img { display: block; width: min(68%, 260px); align-self: center; }
+  .home__data { text-align: center; }
+  .home__title { font-size: clamp(2rem, 8vw, 3rem); line-height: 1.15; }
+  .home__data h1 { margin: 0; }
+  .home__data h1 span { font-size: inherit; }
+  .home__description { max-width: 100%; }
+  .my__info { display: none; }
+  .about__img { width: min(75%, 280px); }
+  .about__data { text-align: left; }
+  .about__heading { line-height: 1.6; }
+  .about__description { text-align: left; overflow-wrap: anywhere; }
+  .about__info { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
+  .about__box { padding: .9rem .4rem; min-width: 0; }
+  .qualification__container, .skills__container { grid-template-columns: minmax(0, 1fr); }
+  .skills__header { gap: .5rem; }
+  .skills__subtitle { display: block; }
+  .work__filters { justify-content: flex-start; flex-wrap: wrap; row-gap: .6rem; }
+  .work__container { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .work__card { min-width: 0; }
+  .services__container { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .services__content { padding: 2.5rem 1rem 1.25rem; }
+  .contact__container { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .contact__info { grid-template-columns: minmax(0, 1fr); }
+  .footer__container { grid-template-columns: minmax(0, 1fr); }
+  .portfolio__popup { overflow-y: auto; align-items: flex-start; padding: 1rem; }
+  .portfolio__popup-inner { width: 100%; max-width: 560px; max-height: calc(100dvh - 2rem); overflow-y: auto; padding: 3rem 1.25rem 1.5rem; }
+  .portfolio__popup-content { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
+  .portfolio__popup-close { top: .75rem; right: .9rem; }
+  .services__modal { overflow-y: auto; align-items: flex-start; padding: 1rem; }
+  .services__modal-content { width: 100%; max-width: 500px; max-height: calc(100dvh - 2rem); overflow-y: auto; margin: auto; padding: 3.5rem 1.25rem 1.5rem; }
+  body.modal-open { overflow: hidden; }
+}
+
+@media (max-width: 420px) {
+  .container { width: calc(100% - 1.25rem); }
+  .home__social { align-self: center; }
+  .home__title { font-size: clamp(1.8rem, 8vw, 2.4rem); }
+  .home__description { font-size: .85rem; }
+  .about__info { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .services__container { grid-template-columns: minmax(0, 1fr); }
+  .work__filters { gap: .4rem; }
+  .work__item { padding: .35rem .55rem; font-size: .8rem; }
+  .skill-box { padding: 8px 11px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
