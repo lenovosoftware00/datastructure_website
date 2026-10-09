@@ -323,9 +323,6 @@ input{
     transform: translateY(.25rem);
 }
 
-.home__img{
-    display: none;
-}
 
 /* ============================================================== */
 /* animated skills css code */
@@ -1585,12 +1582,6 @@ input{
         row-gap: 2rem;
     }
 
-    .home__img {
-        display: block;
-        width: 250px;
-        justify-self: center;
-    }
-
     .home__social {
         left: initial;
         right: -1rem;
@@ -1654,9 +1645,6 @@ input{
         margin-right: var(--mb-1);
     }
 
-    .home__img {
-        width: 200px;
-    }
 
     .home__title {
         font-size: var(--h1-font-size);
