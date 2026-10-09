@@ -1568,7 +1568,7 @@ input{
 
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .nav__toggle {
         right: initial;
         left: 1.5rem;
@@ -1645,10 +1645,11 @@ input{
         justify-self: flex-start;
     }
 
-}
+} */
 
 /* For Small Devices */
-@media screen and (max-width: 350px) {
+
+/* @media screen and (max-width: 350px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1701,4 +1702,4 @@ input{
 
 
 
-}
+} */
