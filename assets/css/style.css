@@ -275,12 +275,14 @@ input{
 }
 
 .home__container {
+    z-index: 1;
     position: relative;
     height: 100%;
     align-items: center;
 }
 
 .home__social {
+    z-index: 1;
     position: absolute;
     top: 1.8rem;
     right: 0;
@@ -291,6 +293,7 @@ input{
 }
 
 .home__social-follow{
+    z-index: 1;
     font-weight: var(--font-medium);
     font: bold;
     color: darkkhaki;
