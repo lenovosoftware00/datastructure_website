@@ -337,6 +337,7 @@ input{
     padding: 15px 0;
     margin-bottom: 25px;
     position: relative;
+    z-index: 1;
     /* Soft fade edges for a professional look */
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
@@ -508,6 +509,7 @@ input{
 
 .home__title{
     font-size: var(--biggest-font-size);
+    z-index: 1;
 }
 
 .home__subtitle{
@@ -516,11 +518,13 @@ input{
     margin-bottom: var(--mb-0-75);
     color: firebrick;
     font-family: cursive;
+    z-index: 1;
 }
 
 .home__descrition{
     max-width: 450px;
     margin-bottom: var(--mb-2);
+    z-index: 1;
 }
 
 .my__info{
