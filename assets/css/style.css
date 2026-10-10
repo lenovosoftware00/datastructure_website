@@ -1585,11 +1585,11 @@ input{
         row-gap: 2rem;
     }
 
-    .home__img {
+    /* .home__img {
         display: block;
         width: 250px;
         justify-self: center;
-    }
+    } */
 
     .home__social {
         left: initial;
