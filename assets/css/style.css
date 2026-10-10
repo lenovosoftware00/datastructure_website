@@ -275,10 +275,10 @@ input{
 }
 
 .home__container {
-    z-index: 1;
     position: relative;
     height: 100%;
     align-items: center;
+    z-index: 1;
 }
 
 .home__social {
@@ -339,8 +339,8 @@ input{
     overflow: hidden;
     padding: 15px 0;
     margin-bottom: 25px;
-    position: relative;
     z-index: 1;
+    position: relative;
     /* Soft fade edges for a professional look */
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
@@ -479,6 +479,7 @@ input{
     color: darkgray;
     font-family: cursive;
     font-size: 14px;
+    position: relative;
 }
 /* H1 NAME TITLE ANIMATION */
 /* _________________________________________ */
@@ -492,8 +493,9 @@ input{
 
 .home__data p {
     color: white;
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    animation: neonPulse 545ms ease-in-out infinite;
+    animation: neonPulse 565ms ease-in-out infinite;
 }
 
 @keyframes neonPulse {
@@ -512,7 +514,8 @@ input{
 
 .home__title{
     font-size: var(--biggest-font-size);
-    z-index: 1;
+    /* z-index: 1; */
+    position: relative;
 }
 
 .home__subtitle{
@@ -521,12 +524,14 @@ input{
     margin-bottom: var(--mb-0-75);
     color: firebrick;
     font-family: cursive;
-    z-index: 1;
+    /* z-index: 1; */
+    position: relative;
 }
 
 .home__descrition{
     max-width: 450px;
     margin-bottom: var(--mb-2);
+    position: relative;
     z-index: 1;
 }
 
@@ -1216,7 +1221,7 @@ input{
 
 .contact__card-icon:hover {
     color: var(--skin-color);
-}  
+}
 
 .contact__card-title, 
 .contact__card-data {
