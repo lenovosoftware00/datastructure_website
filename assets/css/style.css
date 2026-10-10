@@ -268,8 +268,8 @@ input{
 
 /*===== Home Section =====*/
 .home {
-    background: url('https://github.com/lenovosoftware00/datastructure_website/blob/main/home-bg.jpg');
-    background-size: cover;
+    background: url('/assets/img/home-bg.jpg');
+    /* background-size: cover; */
     background-position: center;
     height: 100vh;
 }
