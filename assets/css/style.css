@@ -267,11 +267,24 @@ input{
 }
 
 /*===== Home Section =====*/
-.home {
+/* .home {
     background: url('/assets/img/home-bg.jpg');
-    /* background-size: cover; */
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     height: 100vh;
+} */
+
+.home__img {
+    background: url('/assets/img/home-bg.jpg');
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    z-index: 1;
 }
 
 .home__container {
