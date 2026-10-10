@@ -1206,6 +1206,10 @@ input{
     margin-bottom: var(--mb-0-25);
 }
 
+.contact__card-icon:hover {
+    color: var(--skin-color);
+}  
+
 .contact__card-title, 
 .contact__card-data {
     font-size: var(--small-font-size);
