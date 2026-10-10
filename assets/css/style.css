@@ -324,7 +324,7 @@ input{
 }
 
 .home__img{
-    display: block;
+    display: none;
 }
 
 /* ============================================================== */
@@ -1586,7 +1586,7 @@ input{
     }
 
     .home__img {
-        display: cover;
+        display: block;
         width: 250px;
         justify-self: center;
     }
